@@ -1,0 +1,19 @@
+{
+    "name": "vendor/LaravelSanitize",
+    "description": "A description of my package",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\LaravelSanitize\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\LaravelSanitize\\LaravelSanitizeServiceProvider"
+            ]
+        }
+    }
+}
