@@ -20,7 +20,8 @@ class SanitizeInput
                 $afterSanitizeData[$key] = $requestParamData;
                 continue;
             }
-            $afterSanitizeData[$key] = preg_replace("/\;|\#|\-\-|\:|\(\)|\=|\//", '\$1', $requestParamData);
+            $afterSanitizeData[$key] = preg_replace("/([\;|\#|(\-\-)|\:|\(\)|\=|\/])/", '\$1', $requestParamData);
+            // preg_replace("/\;|\#|\-\-|\:|\(\)|\=|\//", '\$1', $requestParamData);
         }
 
         $request->query->replace($afterSanitizeData);
