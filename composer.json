@@ -2,7 +2,12 @@
     "name": "vendor/LaravelSanitize",
     "description": "A description of my package",
     "require": {
-        "php": "^7.3|^8.0"
+        "php": "^5.6~"
+    },
+    "scripts": {
+        "post-package-install": [
+            "php -r \"copy('vendor/LaravelSanitize/src/config/sanitize_input.php', 'config/sanitize_input.php');\""
+        ]
     },
     "autoload": {
         "psr-4": {

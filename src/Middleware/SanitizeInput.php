@@ -16,7 +16,7 @@ class SanitizeInput
     public function handle(Request $request, Closure $next): Response
     {
         foreach($request->all() as $key => $requestParamData){
-            if (array_key_exists($request->path(), config('const.NOT_SANITIZE')) && in_array($key, config('const.NOT_SANITIZE')[$request->path()])) {
+            if (array_key_exists($request->path(), config('sanitize_input.NOT_SANITIZE')) && in_array($key, config('sanitize_input.NOT_SANITIZE')[$request->path()])) {
                 $afterSanitizeData[$key] = $requestParamData;
                 continue;
             }
