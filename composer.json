@@ -5,7 +5,7 @@
     },
     "scripts": {
         "post-package-install": [
-            "php -r \"copy('vendor/LaravelSanitize/src/config/sanitize_input.php', 'config/sanitize_input.php');\""
+            "php -r \"copy('LaravelSanitize/src/config/sanitize_input.php', 'config/sanitize_input.php');\""
         ]
     },
     "autoload": {
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\LaravelSanitize\\LaravelSanitizeServiceProvider"
+                "LaravelSanitize\\LaravelSanitizeServiceProvider"
             ]
         }
     }

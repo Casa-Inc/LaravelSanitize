@@ -1,10 +1,9 @@
 <?php
 
-namespace Vendor\LaravelSanitize;
+namespace LaravelSanitize;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Http\Kernel;
-use Vendor\MyPackage\Middleware\MyMiddleware;
 
 class LaravelSanitizeServiceProvider extends ServiceProvider
 {
