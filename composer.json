@@ -3,11 +3,6 @@
     "description": "A description of my package",
     "require": {
     },
-    "scripts": {
-        "post-package-install": [
-            "cp vendor/casa-inc/laravel-sanitize/src/config/snitize-input.php config/snitize-input.php"
-        ]
-    },
     "autoload": {
         "psr-4": {
             "LaravelSanitize\\": "src/"

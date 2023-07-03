@@ -4,6 +4,7 @@ namespace LaravelSanitize\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Http\Kernel;
+use LaravelSanitize\Middleware\SanitizeInput;
 
 class LaravelSanitizeServiceProvider extends ServiceProvider
 {
