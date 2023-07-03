@@ -20,6 +20,10 @@ return [
 2.composer.jsonに下記を追加する
 
 ```json
+"require": {
+    ...
+    "casa-inc/laravel-sanitize": "dev-main"
+},
 "repositories": [
     {
         "type": "vcs",
