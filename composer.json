@@ -1,5 +1,5 @@
 {
-    "name": "Vendor/LaravelSanitize",
+    "name": "vendor/LaravelSanitize",
     "description": "A description of my package",
     "require": {
     },
