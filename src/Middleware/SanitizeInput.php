@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelSanitize\Middleware;
+namespace Vendor\LaravelSanitize\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

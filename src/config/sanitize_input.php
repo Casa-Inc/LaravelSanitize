@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelSanitize\config;
+namespace Vendor\LaravelSanitize\config;
 
 return [
     'NOT_SANITIZE' => [

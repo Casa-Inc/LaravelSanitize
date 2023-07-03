@@ -1,22 +1,22 @@
 {
-    "name": "LaravelSanitize",
+    "name": "Vendor/LaravelSanitize",
     "description": "A description of my package",
     "require": {
     },
     "scripts": {
         "post-package-install": [
-            "php -r \"copy('LaravelSanitize/src/config/sanitize_input.php', 'config/sanitize_input.php');\""
+            "php -r \"copy('Vendor/LaravelSanitize/src/config/sanitize_input.php', 'config/sanitize_input.php');\""
         ]
     },
     "autoload": {
         "psr-4": {
-            "LaravelSanitize\\": "./"
+            "Vendor\\LaravelSanitize\\": "./"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelSanitize\\LaravelSanitizeServiceProvider"
+                "Vendor\\LaravelSanitize\\LaravelSanitizeServiceProvider"
             ]
         }
     }
