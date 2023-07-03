@@ -7,6 +7,7 @@
 <?php
 
 return [
+    // エスケープしたくないパラメーターは記載する
     'NOT_SANITIZE' => [
         // URLごとに配列を作成
         'get/hoge' => [
