@@ -5,7 +5,7 @@
     },
     "scripts": {
         "post-package-install": [
-            "cp src/config/sanitize_input.php $(dirname ${COMPOSER_VENDOR_DIR})/confing/sanitize_input.php"
+            "cp vendor/casa-inc/laravel-sanitize/src/config/snitize-input.php config/snitize-input.php"
         ]
     },
     "autoload": {
