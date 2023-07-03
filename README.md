@@ -8,7 +8,9 @@
 
 return [
     'NOT_SANITIZE' => [
+        // URLごとに配列を作成
         'get/hoge' => [
+            // URLのパラメーター
             'password',
         ]
     ],
