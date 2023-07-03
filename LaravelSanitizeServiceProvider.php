@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelSanitize;
+namespace Vendor\LaravelSanitize;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Http\Kernel;
