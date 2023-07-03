@@ -21,7 +21,6 @@ return [
 
 ```json
 "require": {
-    ...
     "casa-inc/laravel-sanitize": "dev-main"
 },
 "repositories": [
